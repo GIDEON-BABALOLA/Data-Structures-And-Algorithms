@@ -79,4 +79,4 @@ class BinaryTree:
 
 # postorder_traversal(node):
 
-# Recursive approach that visits the left subtree first, then the right subtree, and then the node itself.
+# Recursive approach that visits the left subtree first, then the right subtree, and then the node itself
