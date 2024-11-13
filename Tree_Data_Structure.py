@@ -58,18 +58,11 @@ class BinaryTree:
 
 #Explanation Of Code
 # insert(data):
-
-# Creates a new node with the given data.
-# If the tree is empty (root is None), the new node becomes the root.
-# Otherwise, traverses the tree recursively to find the appropriate position for the new node.
-#  Inserts the new node as a child of the appropriate parent node (left or right based on data comparison).
+# A new node is generated and assigned the data specified in the parameters. In the event that the tree happens to be empty (root is None), the newly created node becomes the root of the tree. Otherwise, the tree is traversed recursively in search of a position for the new node. The new node is added as a child of the suitable parent node (either to the left or right depending on data comparison)      
 
 # search(data):
 
-# Starts from the root node (current).
-# Iterates down the tree, comparing data with the current node's data.
-# If a match is found, returns the node containing the data.
-# If no match is found after traversing all branches, returns None.
+# Begins at the core node (the present one). Progressively moves down the structural hierarchy thereby validating the data with that of the present node. In the event that the data is equivalent to the one stored in the node, returns the data filled node. If no similar data is found after all branches have been traversed, it returns None instead.
 
 # preorder_traversal(node):
 
